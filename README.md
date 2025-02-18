@@ -22,32 +22,32 @@ integrates securely with Google Cloud for login authentication.
 
 
 
-2.2 Software Architectural Design
+2.2 Software Architectural Design:
 The system is built with a multi-tier architecture, ensuring a clear separation of concerns and scalability:
 
 1. Presentation Layer (Frontend):
-a) Built using HTML and CSS to provide a user-friendly interface.
-b) ReactJS or Vue.js could be added for a dynamic, responsive experience.
-c) Displays the appointment calendar, booking options, and the chatbot interface.
+a) Built using HTML and CSS to provide a user-friendly interface.  
+b) ReactJS or Vue.js could be added for a dynamic, responsive experience.  
+c) Displays the appointment calendar, booking options, and the chatbot interface.  
 
 2. Application Layer (Backend):
-a) Built using Node.js with Express for handling HTTP requests and managing sessions.
-b) RESTful API design to interact between the frontend and the database.
-c) Integration with Google Cloud OAuth for secure login and authentication.
+a) Built using Node.js with Express for handling HTTP requests and managing sessions.  
+b) RESTful API design to interact between the frontend and the database.  
+c) Integration with Google Cloud OAuth for secure login and authentication.  
 
 3. Database Layer:
-a) A Relational Database (e.g., MySQL, PostgreSQL) stores patient and doctor data, appointment schedules, and medical histories.
-b) The system should use SQL queries to fetch, insert, update, or delete data based on user actions.
-c) MongoDB could be considered for more flexibility with unstructured data.
+a) A Relational Database (e.g., MySQL, PostgreSQL) stores patient and doctor data, appointment schedules, and medical histories.  
+b) The system should use SQL queries to fetch, insert, update, or delete data based on user actions.  
+c) MongoDB could be considered for more flexibility with unstructured data.  
 
 4. Real-Time Layer:
-a) A chatbot powered by AI/ML models that can help patients with appointment bookings, FAQs, and other queries.
-b) Socket.io or similar technology can be used to facilitate real- time communication.
+a) A chatbot powered by AI/ML models that can help patients with appointment bookings, FAQs, and other queries.  
+b) Socket.io or similar technology can be used to facilitate real- time communication.  
 
 5. Security Layer:
-a) User authentication via Google Cloud OAuth for secure login.
-b) SSL/TLS encryption to protect data during transmission.
-c) Role-based access control (RBAC) to ensure that only authorized users (doctors, admin, patients) can access sensitive data.
+a) User authentication via Google Cloud OAuth for secure login.  
+b) SSL/TLS encryption to protect data during transmission.  
+c) Role-based access control (RBAC) to ensure that only authorized users (doctors, admin, patients) can access sensitive data.  
 
 6. Deployment:
 a) Hosted on a cloud platform (e.g., AWS, Google Cloud) to ensure scalability and availability.
