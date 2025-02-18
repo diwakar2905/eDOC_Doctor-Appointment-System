@@ -1,5 +1,5 @@
 # eDOC
-he eDoc Doctor Appointment System is a modern, web-based platform designed to streamline appointment scheduling and enhance healthcare accessibility. Developed using HTML, CSS, and Node.js, the system offers a secure login mechanism powered by Google Cloud OAuth for seamless authentication and user safety.
+The eDoc Doctor Appointment System is a modern, web-based platform designed to streamline appointment scheduling and enhance healthcare accessibility. Developed using HTML, CSS, and Node.js, the system offers a secure login mechanism powered by Google Cloud OAuth for seamless authentication and user safety.
 
 1.1 Introduction:
 The Edoc Doctor Appointment System is a modern, web-based platform designed to simplify appointment scheduling and enhance healthcare accessibility. Developed using HTML, CSS, and Node.js, this system provides secure login through Google Cloud's OAuth initiative, ensuring privacy and protection. With a user-friendly interface, the platform enables efficient doctor- patient management. Key features include a real-time chatbot for assistance, a database to store patient and appointment data, and a scheduling feature that allows users to view and book appointments based on their illness. The system categorizes doctors according to their specialties, making it easy for patients to
